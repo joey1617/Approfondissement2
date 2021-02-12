@@ -1,0 +1,90 @@
+.alignement{
+    margin-left: 400px;
+}
+
+h1,h2{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+
+button{
+    align-self: center;
+}
+
+#in0, #in1, #in2, #in3, #in4{
+    display: none;
+    float: left;
+}
+
+.after{
+  float: left;
+}
+
+label{
+    font-size: 25px;
+    float: left;
+    text-align: right;
+    color: white;
+    margin-right: 10px;
+}
+
+
+input{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    width: 750px;
+    float: left;
+}
+
+.grid-item {
+    font-size: 30px;
+    text-align: center;
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+}
+
+.space{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.img{
+    float:right;
+    margin-right: 200px;
+    display: none;
+}
+
+
+body{
+    background-image: url("download.jpg");
+    background-size: cover;
+}
+
+.Defence{
+    display: none;
+}
+
+.simply, .replacing{
+    display: none;
+}
+
+.bing,.bang,.bong{
+    margin-top: 15px;
+ margin-right: 10px;
+}
